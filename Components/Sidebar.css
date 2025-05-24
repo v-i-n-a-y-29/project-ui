@@ -1,0 +1,38 @@
+.sidebar {
+  width: 220px;
+  background-color: #07093d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.sidebar-header {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.sidebar-item {
+  padding: 12px 20px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #1e204e;
+}
+
+.logout {
+  padding: 12px 20px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}

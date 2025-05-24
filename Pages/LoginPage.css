@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-page {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.video-background video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.login-container {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container h1{
+    margin: 15px;
+}
+
+/* Glassmorphism card */
+.login-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px;
+  width: 340px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo img {
+  width: 180px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.login-card h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-card input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 14px;
+}
+
+.login-card input::placeholder {
+  color: white;
+}
+
+.login-card button {
+  padding: 10px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  background-color: #002244;
+}
+
+.forgot-password {
+  font-size: 12px;
+  text-align: right;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.register-link {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.register-link span {
+  text-decoration: underline;
+  cursor: pointer;
+}
